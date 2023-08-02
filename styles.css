@@ -58,12 +58,12 @@ h1, h2, p
 
 .link-button {
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
+    color: white;
+    border: 5px solid white;
+    padding: 16px 32px;
+    border-radius: 12px;
     box-shadow: 2px 3px #888888;
+<<<<<<< HEAD
 }
 
 
@@ -87,4 +87,3 @@ h1, h2, p
     body {
         font-size: 14px;
     }
-}
