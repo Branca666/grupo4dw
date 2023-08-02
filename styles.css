@@ -34,3 +34,26 @@ body {
   .name:hover {
     color: red; /* Cambiar el color cuando el mouse está encima */
   }
+
+
+.link-button {
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: #c6e8ff;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image:active {
+    scale: 1.1;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
