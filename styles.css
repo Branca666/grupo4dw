@@ -65,6 +65,23 @@ h1, h2, p
     box-shadow: 2px 3px #888888;
 <<<<<<< HEAD
 }
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-content p, .footer-content a {
+    margin: 0;
+    padding: 5px;
+  }
+  .name {
+    transition: color 0.3s; /* Efecto de transición para el cambio de color */
+  }
+  
+  .name:hover {
+    color: red; /* Cambiar el color cuando el mouse está encima */
+  }
 
 
 .link-button {
