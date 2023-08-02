@@ -3,6 +3,7 @@ body {
 }
 
 .image {
+<<<<<<< Updated upstream
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
@@ -10,6 +11,27 @@ body {
     margin: 0 auto;   
     text-align: center; 
 }
+=======
+        border: 5px solid green;
+        border-radius: 10px;
+        height: 400px;
+        display: block; 
+        margin: 0 auto; 
+        text-align: center; 
+    }
+
+h1, h2, p {
+        display: flex;
+        
+       
+      flex-direction: column;
+        
+       
+      justify-content: center;
+        
+       
+      align-items: center;
+>>>>>>> Stashed changes
 
 h1, h2, p 
     {display: flex;
