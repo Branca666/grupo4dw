@@ -8,13 +8,6 @@ body {
     height: 400px;
 }
 
-
-h1, img, h2, p 
-    {display: flex;
-    flex-direction: column;       
-    justify-content: center;
-    align-items: center;}
-
 .link-button {
     text-decoration: none;
     color: black;
