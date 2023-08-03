@@ -22,12 +22,32 @@ body {
     padding: 16px 32px;
     border-radius: 12px;
     box-shadow: 2px 3px #888888;
+<<<<<<< HEAD
      background: linear-gradient(45deg,
   blue, black);
   display: inline-block;
-    text-decoration: none;
+  text-decoration: none;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+=======
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-content p, .footer-content a {
+    margin: 0;
+    padding: 5px;
+  }
+  .name {
+    transition: color 0.3s; /* Efecto de transición para el cambio de color */
+  }
+
+  .name:hover {
+    color: red; /* Cambiar el color cuando el mouse está encima */
+  }
 
 .link-button:hover {
     background-color: #c6e8ff;
