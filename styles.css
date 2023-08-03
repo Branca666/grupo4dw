@@ -1,70 +1,94 @@
-
-html{
-    height: 100%;
-    background: linear-gradient(0deg, rgba(43,37,119,1) 0%, rgba(14,35,60,1) 58%);
-}
 body {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    background: linear-gradient(0deg, rgba(43,37,119,1) 0%, rgba(14,35,60,1) 58%);
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+html
+{
+        height: 100%;
+        margin: 0;
+        padding: 0;
 }
 
 .image {
     border: 5px solid green;
     border-radius: 10px;
+    width: 700px;
     height: 400px;
+    object-fit:fill;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     text-align: center;
-    position: relative; /* Agregado */
 }
 
-h1, h2, p
-    {display: flex;
+h1, h2, p {
+    text-align: center;
+}
+
+h1
+{
+    background-color: rgb(86, 86, 134);
+    width: fit-content;
+    justify-self: center;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    padding: 16px 32px;
+    border-radius: 12px;
+    box-shadow: 2px 3px #888888;
+    background: linear-gradient(45deg, blue, black);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin: 20px auto; /* Ajusta el margen superior e inferior según lo necesites */
+    width: fit-content;
+}
+
+.main-container
+{
+    display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;}
+    align-items: center;
+    margin: 20px auto 20px auto;
+    width: 80%;
+}
 
-    .link-button {
-        text-decoration: none;
-        color: white;
-        border: 5px solid white;
-        padding: 16px 32px;
-        border-radius: 12px;
-        box-shadow: 2px 3px #888888;
-        background: linear-gradient(45deg, blue, black);
-        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-        cursor: pointer;
-        display: block;
-        margin: 20px auto; /* Ajusta el margen superior e inferior según lo necesites */
-        width: fit-content;
-    }
-
-    .text-container {
-        text-align: center;
-    }
+.footer
+{
+    background-color: darkblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 .footer-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 100px;
-  }
+    padding: 20px;
+}
 
-  .footer-content p, .footer-content a {
-    margin: 0;
-    padding: 5px;
-  }
-  .name {
+.name {
     transition: color 0.3s; /* Efecto de transición para el cambio de color */
-  }
+}
 
-  .name:hover {
+.name:hover {
     color: red; /* Cambiar el color cuando el mouse está encima */
-  }
+}
 
 .link-button:hover {
     background-color: #c6e8ff;
