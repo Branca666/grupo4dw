@@ -3,56 +3,46 @@ body {
 }
 
 .image {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
-    display: block;  
-    margin: 0 auto;   
-    text-align: center; 
-=======
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
-    display: block; 
-    margin: 0 auto; 
-    text-align: center; 
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
-h1, h2, p 
+h1, h2, p
 {
-display: flex;      
-flex-direction: column;     
+display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
->>>>>>> Stashed changes
+
+    border: 5px solid green;
+    border-radius: 10px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
-=======
-        border: 5px solid green;
-        border-radius: 10px;
-        height: 400px;
-        display: block; 
-        margin: 0 auto; 
-        text-align: center; 
-    }
-
 h1, h2, p {
-        display: flex;
-        
-       
+     display: flex;
       flex-direction: column;
-        
-       
       justify-content: center;
-        
-       
       align-items: center;
->>>>>>> Stashed changes
+}
 
-h1, h2, p 
+h1, h2, p
     {display: flex;
-    flex-direction: column;       
+    flex-direction: column;
     justify-content: center;
     align-items: center;}
 
@@ -69,7 +59,7 @@ h1, h2, p
     justify-content: space-around;
     align-items: center;
   }
-  
+
   .footer-content p, .footer-content a {
     margin: 0;
     padding: 5px;
@@ -77,12 +67,12 @@ h1, h2, p
   .name {
     transition: color 0.3s; /* Efecto de transición para el cambio de color */
   }
-  
+
   .name:hover {
     color: red; /* Cambiar el color cuando el mouse está encima */
   }
-<<<<<<< HEAD
-}
+
+
 
 
 .link-button {
@@ -101,7 +91,8 @@ h1, h2, p
     scale: 1.1;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px){
     body {
         font-size: 14px;
     }
+}
