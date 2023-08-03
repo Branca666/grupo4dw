@@ -1,5 +1,7 @@
-body {
-    background-color: rgb(255, 255, 165);
+
+html{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(43,37,119,1) 0%, rgba(14,35,60,1) 58%);
 }
 
 .image{
@@ -17,4 +19,6 @@ body {
     box-shadow: 2px 3px #888888;
      background: linear-gradient(45deg,
   blue, black);
+  width: 120%;
+  height: 120%;
 }
