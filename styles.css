@@ -9,11 +9,20 @@ body {
     font-size: medium;
 }
 
-.image{
+.image {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
+
+h1, h2, p
+    {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
 
 .link-button {
     text-decoration: none;
