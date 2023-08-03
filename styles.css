@@ -13,9 +13,13 @@ body {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     text-align: center;
+    position: relative; /* Agregado */
 }
 
 h1, h2, p
@@ -24,21 +28,24 @@ h1, h2, p
     justify-content: center;
     align-items: center;}
 
-.link-button {
-    text-decoration: none;
-    color: white;
-    border: 5px solid white;
-    padding: 16px 32px;
-    border-radius: 12px;
-    box-shadow: 2px 3px #888888;
-<<<<<<< HEAD
-     background: linear-gradient(45deg,
-  blue, black);
-  display: inline-block;
-  text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-=======
-}
+    .link-button {
+        text-decoration: none;
+        color: white;
+        border: 5px solid white;
+        padding: 16px 32px;
+        border-radius: 12px;
+        box-shadow: 2px 3px #888888;
+        background: linear-gradient(45deg, blue, black);
+        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto; /* Ajusta el margen superior e inferior según lo necesites */
+        width: fit-content;
+    }
+
+    .text-container {
+        text-align: center;
+    }
 
 .footer-content {
     display: flex;
